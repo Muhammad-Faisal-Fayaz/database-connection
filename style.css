@@ -1,0 +1,33 @@
+form h3{
+    color: #000;
+    font-size: larger;
+    font-style: italic;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #150404;
+}
+input{
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+    border: 2px solid #e10d0d;
+    border-radius: 5px;
+    background-color: aliceblue;
+    color: black;
+    margin-top: 30px;
+}
+input, button{
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+    border: 2px solid #e10d0d;
+    border-radius: 5px;
+    background-color: aliceblue;
+    color: black;
+}
