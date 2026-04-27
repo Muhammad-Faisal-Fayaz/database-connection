@@ -37,7 +37,6 @@ $result = $conn->query($sql);
 <body>
 
 <h2 style="text-align:center;">Product List</h2>
-
 <table>
     <tr>
         <th>ID</th>
@@ -61,13 +60,12 @@ $result = $conn->query($sql);
                     <td>{$row['image']}</td>
                     <td>{$row['descriptions']}</td>
                     
-                  </tr>";
+                </tr>";
         }
     } else {
         echo "<tr><td colspan='7'>No products found</td></tr>";
     }
     ?>
-
 </table>
 
 </body>
